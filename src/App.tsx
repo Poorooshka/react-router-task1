@@ -1,11 +1,13 @@
 import First from "./components/First";
 import Second from "./components/Second";
 import Third from "./components/Third";
+import Links from "./components/Links";
 import { Route, Switch } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
+      <Links />
       <Switch>
         <Route path="/poc/1">
           <First />
